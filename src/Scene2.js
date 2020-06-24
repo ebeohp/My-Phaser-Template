@@ -1,27 +1,15 @@
-class Scene2 extends Phaser.Scene{
-    constructor(){
-        super("playGame");
-    }
-    create(){
-        
-        
-    }
-    
-   
-    
-    update(){
-       
-    }
-    
-    
-    endGame(){
+export default class Scene2 extends Phaser.Scene {
+  constructor() {
+    super("playGame");
+  }
+  create() {}
 
-        this.scene.start("endGame");
-    }
-    winner(){
+  update() {}
 
-        this.scene.start("winGame");
-    }
-  
-    
+  endGame() {
+    this.scene.start("endGame");
+  }
+  winner() {
+    this.scene.start("winGame");
+  }
 }
