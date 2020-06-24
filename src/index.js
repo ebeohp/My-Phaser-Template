@@ -1,16 +1,16 @@
 import Phaser from "phaser";
 
 import Loading from "./Loading";
-import Scene1 from "./Scene1";
-import Scene2 from "./Scene2";
-import Scene3 from "./Scene3";
-import Scene4 from "./Scene4";
+import bootGame from "./bootGame";
+import playGame from "./playGame";
+import endGame from "./endGame";
+import winGame from "./winGame";
 
 const config = {
   width: 600,
   height: 600,
   backgroundColor: 0x000000,
-  scene: [Loading, Scene1, Scene2, Scene3, Scene4],
+  scene: [Loading, bootGame, playGame, endGame, winGame],
   pixelArt: true,
   physics: {
     default: "arcade",

@@ -12,12 +12,12 @@
     "url": "git+https://github.com/feebeeBot/My-Phaser-Template.git"
   },
   "author": "Phoebe L.",
-  "license": "None",
+  "license": "NA",
   "licenseUrl": "NA",
   "bugs": {
-    "url": "https://github.com/photonstorm/phaser3-project-template/issues"
+    "url": "https://github.com/feebeeBot/My-Phaser-Template/issues"
   },
-  "homepage": "https://github.com/photonstorm/phaser3-project-template#readme",
+  "homepage": "https://github.com/feebeeBot/My-Phaser-Template",
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",

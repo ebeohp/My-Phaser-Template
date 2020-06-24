@@ -1,7 +1,9 @@
-export default class Scene3 extends Phaser.Scene {
+export default class winGame extends Phaser.Scene {
   constructor() {
-    super("endGame");
+    super("winGame");
   }
+  init() {}
+  preload() {}
   create() {}
   update() {}
   restartGame() {
