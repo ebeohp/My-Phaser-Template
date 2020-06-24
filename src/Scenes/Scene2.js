@@ -1,8 +1,12 @@
-export default class Scene2 extends Phaser.Scene {
+import _Scene from "./_Scene";
+
+class Scene2 extends _Scene {
   constructor() {
     super("playGame");
   }
-  create() {}
+  create() {
+    console.log(this.centerX, this.centerY);
+  }
 
   update() {}
 
@@ -13,3 +17,5 @@ export default class Scene2 extends Phaser.Scene {
     this.scene.start("winGame");
   }
 }
+
+export default Scene2;

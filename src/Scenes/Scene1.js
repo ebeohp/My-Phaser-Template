@@ -1,4 +1,6 @@
-export default class Scene1 extends Phaser.Scene {
+import _Scene from "./_Scene";
+
+class Scene1 extends _Scene {
   constructor() {
     super("bootGame");
   }
@@ -13,3 +15,5 @@ export default class Scene1 extends Phaser.Scene {
     this.scene.start("playGame");
   }
 }
+
+export default Scene1;
